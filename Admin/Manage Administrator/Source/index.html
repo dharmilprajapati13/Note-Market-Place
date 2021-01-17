@@ -1,0 +1,256 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+
+    <!-- title -->
+    <title>Manage Administrator - Marketplace</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+</head>
+
+<body>
+
+    <!-- Sticky Pages -->
+    <header class="site-header">
+        <div class="header-wrapper">
+            <div class="logo-wrapper">
+
+                <!-- Logo -->
+                <a href="#" title="Site Logo" class="navbar-brand">
+                    <img src="images/logo.png" id="logo">
+                </a>
+
+            </div>
+
+            <!-- Main Menu bar -->
+            <div class="navigation-wrapper">
+                <nav class="main-nav">
+                    <ul class="menu-navigation">
+                        <li>
+                            <a href="#">Search Notes</a>
+                        </li>
+                        <li>
+                            <a href="#">Sell Your Notes</a>
+                        </li>
+                        <li>
+                            <a href="#">FAQ's</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="#">
+
+                                <div class="dropdown">
+                                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <img src="img/team-1.jpg" class="profile-img">
+                                    </a>
+
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                        <a class="dropdown-item" href="#" style="padding: 5%;border: 1px solid;width: 100%;">My Profile</a>
+                                        <a class="dropdown-item" href="#" style="padding: 5%;border: 1px solid;width: 100%;">My Download</a>
+                                        <a class="dropdown-item" href="#" style="padding: 5%;border: 1px solid;width: 100%;">My Sold
+                                            Notes</a>
+                                        <a class="dropdown-item" href="#" style="padding: 5%;border: 1px solid;width: 100%;">My Rejected
+                                            Notes</a>
+                                        <a class="dropdown-item" href="#" style="padding: 5%;border: 1px solid;width: 100%;">Change
+                                            Password</a>
+                                        <a class="dropdown-item" href="#" style="padding: 5%;border: 1px solid;width: 100%; color: #6255a5;">LOGOUT</a>
+                                    </div>
+                            </a>
+                        </li>
+                        <li>
+                            <button id="logout-button">Logout</button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- my sold Notes -->
+    <section>
+        <div class="container top-content">
+            <div class="dash">
+                <span class="dashboard-content">Manage Administrator</span>
+                <div class="right-nav">
+
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6" id="manage-administrator-1">
+            <button class="btn btn-note">ADD ADMINISTRATOR</button>
+        </div>
+        <div class="col-sm-4" id="manage-administrator-1">
+
+            <button class="btn btn-note2">Search</button>
+            <input type="text" placeholder="Search" class="btn-search fa fa-search" style="height: 4.3%;">
+        </div>
+
+    </section>
+
+
+    <!-- My sold Tables -->
+    <section id="my-sold-notes-table">
+        <div class="col-sm-12">
+            <div class="container">
+                <div class="row" id="my-sold-notes-table-margin">
+                    <table class="table table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th scope="col" style="border-right: hidden;">SR NO.</th>
+                                <th scope="col" style="border-right: hidden;">FIRST NAME</th>
+                                <th scope="col" style="border-right: hidden;">LAST NAME</th>
+                                <th scope="col" style="border-right: hidden;">EMAIL</th>
+                                <th scope="col" style="border-right: hidden;">PHONE NO.</th>
+                                <th scope="col" style="border-right: hidden;">DATE ADDED</th>
+                                <th scope="col" style="border-right: hidden;">ACTIVE</th>
+                                <th scope="col">ACTION</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <th scope="row" style="border-right: hidden;">1</th>
+                                <td class="text-color" style="border-right: hidden;">Khayati</td>
+                                <td style="border-right: hidden;">Patel</td>
+                                <td style="border-right: hidden;">khyatipatel@gmail.com</td>
+                                <td style="border-right: hidden;">9897959512</td>
+                                <td style="border-right: hidden;">09-10-2020, 10:10</td>
+                                <td style="border-right: hidden;">Yes</td>
+                                <td class="dropdown">
+                                    <a class="link-margin" href="#"><img src="images/edit.png"></a>
+                                    <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/delete.png"></a>
+                                    <a class="dropdown-item dropdown-menu" aria-labelledby="dropdownMenuLink" href="#" style="text-align: center; font-family: Open Sans; font-size: 15px; font-weight: 400; line-height: normal; text-decoration: none; color: #333333;">Delete
+                                        Administrator</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row" style="border-right: hidden;">2</th>
+                                <td class="text-color" style="border-right: hidden;">Rahul</td>
+                                <td style="border-right: hidden;">Shah</td>
+                                <td style="border-right: hidden;">rahulshah@gmail.com</td>
+                                <td style="border-right: hidden;">9945321821</td>
+                                <td style="border-right: hidden;">10-10-2020, 12:30</td>
+                                <td style="border-right: hidden;">Yes</td>
+                                <td class="dropdown">
+                                    <a class="link-margin" href="#"><img src="images/edit.png"></a>
+                                    <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/delete.png"></a>
+                                    <a class="dropdown-item dropdown-menu" aria-labelledby="dropdownMenuLink" href="#" style="text-align: center; font-family: Open Sans; font-size: 15px; font-weight: 400; line-height: normal; text-decoration: none; color: #333333;">Delete
+                                        Administrator</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row" style="border-right: hidden;">3</th>
+                                <td class="text-color" style="border-right: hidden;">Suman</td>
+                                <td style="border-right: hidden;">Trivedi</td>
+                                <td style="border-right: hidden;">sumantrivedi@gmail.com</td>
+                                <td style="border-right: hidden;">7852189120</td>
+                                <td style="border-right: hidden;">11-10-2020, 1:00</td>
+                                <td style="border-right: hidden;">No</td>
+                                <td class="dropdown">
+                                    <a class="link-margin" href="#"><img src="images/edit.png"></a>
+                                    <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/delete.png"></a>
+                                    <a class="dropdown-item dropdown-menu" aria-labelledby="dropdownMenuLink" href="#" style="text-align: center; font-family: Open Sans; font-size: 15px; font-weight: 400; line-height: normal; text-decoration: none; color: #333333;">Delete
+                                        Administrator</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row" style="border-right: hidden;">4</th>
+                                <td class="text-color" style="border-right: hidden;">Raj</td>
+                                <td style="border-right: hidden;">Malhotra</td>
+                                <td style="border-right: hidden;">rajmalhotra77@gmail.com</td>
+                                <td style="border-right: hidden;">9852656874</td>
+                                <td style="border-right: hidden;">12-10-2020, 10:10</td>
+                                <td style="border-right: hidden;">Yes</td>
+                                <td class="dropdown">
+                                    <a class="link-margin" href="#"><img src="images/edit.png"></a>
+                                    <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/delete.png"></a>
+                                    <a class="dropdown-item dropdown-menu" aria-labelledby="dropdownMenuLink" href="#" style="text-align: center; font-family: Open Sans; font-size: 15px; font-weight: 400; line-height: normal; text-decoration: none; color: #333333;">Delete
+                                        Administrator</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row" style="border-right: hidden;">5</th>
+                                <td class="text-color" style="border-right: hidden;">Niya</td>
+                                <td style="border-right: hidden;">Patel</td>
+                                <td style="border-right: hidden;">niyapatel12@gmail.com</td>
+                                <td style="border-right: hidden;">8516794532</td>
+                                <td style="border-right: hidden;">13-10-2020, 11:25</td>
+                                <td style="border-right: hidden;">No</td>
+                                <td class="dropdown">
+                                    <a class="link-margin" href="#"><img src="images/edit.png"></a>
+                                    <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/delete.png"></a>
+                                    <a class="dropdown-item dropdown-menu" aria-labelledby="dropdownMenuLink" href="#" style="text-align: center; font-family: Open Sans; font-size: 15px; font-weight: 400; line-height: normal; text-decoration: none; color: #333333;">Delete
+                                        Administrator</a>
+                                </td>
+                            </tr>
+
+
+                            <!-- thead -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <center>
+            <div>
+                <span id="icon-margin-right"><a href="#"><img src="images/left-arrow.png" width="5" height="10"></a></span>
+                <span class="btn btn-primary btn-circle btn-sm">1</span>
+                <span class="btn btn-primary btn-circle btn-sm">2</span>
+                <span class="btn btn-primary btn-circle btn-sm">3</span>
+                <span class="btn btn-primary btn-circle btn-sm">4</span>
+                <span class="btn btn-primary btn-circle btn-sm">5</span>
+                <span id="icon-margin-left"><a href="#"><img src="images/right-arrow.png" width="5" height="10"></a></span>
+            </div>
+        </center>
+    </section>
+    <br>
+    <hr>
+
+    <!-- Footer  -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6" style="margin-left: 5%;">
+                    <p>
+                        <span>Copyright &copy; Tatvasoft All rights reserved.</span>
+                    </p>
+                </div>
+                <div style="text-align: right; margin-right:5%; ">
+                    <span class="btn btn-primary btn-circle btn-sm"><i class="fa fa-facebook"></i></span>
+                    <span class="btn btn-primary btn-circle btn-sm"><i class="fa fa-twitter"></i></span>
+                    <span class="btn btn-primary btn-circle btn-sm"><i class="fa fa-google-plus"></i></span>
+                </div>
+            </div>
+        </div>
+
+        
+    </footer>
+    <!-- Footer Ends -->
+
+    <!-- JQuery -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+
+    <!-- java script -->
+    <script type="text/javascript" src="js/style.js"></script>
+
+</body>
+
+</html>
